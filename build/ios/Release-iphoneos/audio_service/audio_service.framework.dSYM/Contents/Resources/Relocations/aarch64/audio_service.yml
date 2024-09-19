@@ -1,0 +1,53 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/didulasa/Personal Projects/Flutter Projects/tempo_fy/build/ios/Release-iphoneos/audio_service/audio_service.framework/audio_service'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x1BC25, size: 0x8, addend: 0x0, symName: _audio_serviceVersionString, symObjAddr: 0x0, symBinAddr: 0x71E0, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x1BC59, size: 0x8, addend: 0x0, symName: _audio_serviceVersionNumber, symObjAddr: 0x30, symBinAddr: 0x7210, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x1BC95, size: 0x8, addend: 0x0, symName: '+[AudioServicePlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x2B8 }
+  - { offsetInCU: 0x40, offset: 0x1BCAE, size: 0x8, addend: 0x0, symName: _plugins, symObjAddr: 0x9F50, symBinAddr: 0x11108, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x1BD03, size: 0x8, addend: 0x0, symName: _handlerChannel, symObjAddr: 0x9F58, symBinAddr: 0x11110, symSize: 0x0 }
+  - { offsetInCU: 0xE6, offset: 0x1BD54, size: 0x8, addend: 0x0, symName: _commandCenter, symObjAddr: 0x9F60, symBinAddr: 0x11118, symSize: 0x0 }
+  - { offsetInCU: 0x100, offset: 0x1BD6E, size: 0x8, addend: 0x0, symName: _mediaItem, symObjAddr: 0x9F68, symBinAddr: 0x11120, symSize: 0x0 }
+  - { offsetInCU: 0x11A, offset: 0x1BD88, size: 0x8, addend: 0x0, symName: _position, symObjAddr: 0x9F70, symBinAddr: 0x11128, symSize: 0x0 }
+  - { offsetInCU: 0x134, offset: 0x1BDA2, size: 0x8, addend: 0x0, symName: _bufferedPosition, symObjAddr: 0x9F78, symBinAddr: 0x11130, symSize: 0x0 }
+  - { offsetInCU: 0x149, offset: 0x1BDB7, size: 0x8, addend: 0x0, symName: _updateTime, symObjAddr: 0x9F80, symBinAddr: 0x11138, symSize: 0x0 }
+  - { offsetInCU: 0x15E, offset: 0x1BDCC, size: 0x8, addend: 0x0, symName: _speed, symObjAddr: 0x9F88, symBinAddr: 0x11140, symSize: 0x0 }
+  - { offsetInCU: 0x173, offset: 0x1BDE1, size: 0x8, addend: 0x0, symName: _repeatMode, symObjAddr: 0x9F90, symBinAddr: 0x11148, symSize: 0x0 }
+  - { offsetInCU: 0x188, offset: 0x1BDF6, size: 0x8, addend: 0x0, symName: _shuffleMode, symObjAddr: 0x9F98, symBinAddr: 0x11150, symSize: 0x0 }
+  - { offsetInCU: 0x19D, offset: 0x1BE0B, size: 0x8, addend: 0x0, symName: _fastForwardInterval, symObjAddr: 0x9FA0, symBinAddr: 0x11158, symSize: 0x0 }
+  - { offsetInCU: 0x1B2, offset: 0x1BE20, size: 0x8, addend: 0x0, symName: _rewindInterval, symObjAddr: 0x9FA8, symBinAddr: 0x11160, symSize: 0x0 }
+  - { offsetInCU: 0x1C7, offset: 0x1BE35, size: 0x8, addend: 0x0, symName: _artwork, symObjAddr: 0x9FB0, symBinAddr: 0x11168, symSize: 0x0 }
+  - { offsetInCU: 0x1E1, offset: 0x1BE4F, size: 0x8, addend: 0x0, symName: _nowPlayingInfo, symObjAddr: 0x9FB8, symBinAddr: 0x11170, symSize: 0x0 }
+  - { offsetInCU: 0x1F6, offset: 0x1BE64, size: 0x8, addend: 0x0, symName: _commands, symObjAddr: 0x9FC0, symBinAddr: 0x11178, symSize: 0x0 }
+  - { offsetInCU: 0x217, offset: 0x1BE85, size: 0x8, addend: 0x0, symName: _actionBits, symObjAddr: 0x9FC8, symBinAddr: 0x11180, symSize: 0x0 }
+  - { offsetInCU: 0x233, offset: 0x1BEA1, size: 0x8, addend: 0x0, symName: _playing, symObjAddr: 0x9FD0, symBinAddr: 0x11188, symSize: 0x0 }
+  - { offsetInCU: 0x24F, offset: 0x1BEBD, size: 0x8, addend: 0x0, symName: __controlsUpdated, symObjAddr: 0x9FD1, symBinAddr: 0x11189, symSize: 0x0 }
+  - { offsetInCU: 0x34E, offset: 0x1BFBC, size: 0x8, addend: 0x0, symName: '+[AudioServicePlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x2B8 }
+  - { offsetInCU: 0x3BF, offset: 0x1C02D, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin initWithRegistrar:]', symObjAddr: 0x2B8, symBinAddr: 0x42B8, symSize: 0xB4 }
+  - { offsetInCU: 0x402, offset: 0x1C070, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin channel]', symObjAddr: 0x36C, symBinAddr: 0x436C, symSize: 0x8 }
+  - { offsetInCU: 0x436, offset: 0x1C0A4, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin invokeClientMethod:arguments:]', symObjAddr: 0x374, symBinAddr: 0x4374, symSize: 0x144 }
+  - { offsetInCU: 0x49D, offset: 0x1C10B, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin invokeClientMethod:arguments:result:]', symObjAddr: 0x4B8, symBinAddr: 0x44B8, symSize: 0x168 }
+  - { offsetInCU: 0x513, offset: 0x1C181, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin activateCommandCenter]', symObjAddr: 0x620, symBinAddr: 0x4620, symSize: 0x594 }
+  - { offsetInCU: 0x543, offset: 0x1C1B1, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin handleMethodCall:result:]', symObjAddr: 0xBB4, symBinAddr: 0x4BB4, symSize: 0x9B8 }
+  - { offsetInCU: 0x795, offset: 0x1C403, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin play:]', symObjAddr: 0x156C, symBinAddr: 0x556C, symSize: 0x34 }
+  - { offsetInCU: 0x7D0, offset: 0x1C43E, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin pause:]', symObjAddr: 0x15A0, symBinAddr: 0x55A0, symSize: 0x34 }
+  - { offsetInCU: 0x80B, offset: 0x1C479, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin updateNowPlayingField:value:]', symObjAddr: 0x15D4, symBinAddr: 0x55D4, symSize: 0xDC }
+  - { offsetInCU: 0x85C, offset: 0x1C4CA, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin updateNowPlayingInfo]', symObjAddr: 0x16B0, symBinAddr: 0x56B0, symSize: 0x33C }
+  - { offsetInCU: 0x8CB, offset: 0x1C539, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin updateControls]', symObjAddr: 0x19EC, symBinAddr: 0x59EC, symSize: 0x50 }
+  - { offsetInCU: 0x918, offset: 0x1C586, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin updateControl:]', symObjAddr: 0x1A3C, symBinAddr: 0x5A3C, symSize: 0x48C }
+  - { offsetInCU: 0x9D1, offset: 0x1C63F, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin togglePlayPause:]', symObjAddr: 0x1EC8, symBinAddr: 0x5EC8, symSize: 0xD4 }
+  - { offsetInCU: 0xA0E, offset: 0x1C67C, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin stop:]', symObjAddr: 0x1F9C, symBinAddr: 0x5F9C, symSize: 0x34 }
+  - { offsetInCU: 0xA4B, offset: 0x1C6B9, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin nextTrack:]', symObjAddr: 0x1FD0, symBinAddr: 0x5FD0, symSize: 0x34 }
+  - { offsetInCU: 0xA88, offset: 0x1C6F6, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin previousTrack:]', symObjAddr: 0x2004, symBinAddr: 0x6004, symSize: 0x34 }
+  - { offsetInCU: 0xAC5, offset: 0x1C733, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin changePlaybackPosition:]', symObjAddr: 0x2038, symBinAddr: 0x6038, symSize: 0xEC }
+  - { offsetInCU: 0xB06, offset: 0x1C774, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin skipForward:]', symObjAddr: 0x2124, symBinAddr: 0x6124, symSize: 0x34 }
+  - { offsetInCU: 0xB43, offset: 0x1C7B1, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin skipBackward:]', symObjAddr: 0x2158, symBinAddr: 0x6158, symSize: 0x34 }
+  - { offsetInCU: 0xB80, offset: 0x1C7EE, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin seekForward:]', symObjAddr: 0x218C, symBinAddr: 0x618C, symSize: 0xE0 }
+  - { offsetInCU: 0xBD1, offset: 0x1C83F, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin seekBackward:]', symObjAddr: 0x226C, symBinAddr: 0x626C, symSize: 0xE0 }
+  - { offsetInCU: 0xC22, offset: 0x1C890, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin changeRepeatMode:]', symObjAddr: 0x234C, symBinAddr: 0x634C, symSize: 0xEC }
+  - { offsetInCU: 0xC73, offset: 0x1C8E1, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin changePlaybackRate:]', symObjAddr: 0x2438, symBinAddr: 0x6438, symSize: 0xDC }
+  - { offsetInCU: 0xCB4, offset: 0x1C922, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin changeShuffleMode:]', symObjAddr: 0x2514, symBinAddr: 0x6514, symSize: 0xEC }
+  - { offsetInCU: 0xD05, offset: 0x1C973, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin dealloc]', symObjAddr: 0x2600, symBinAddr: 0x6600, symSize: 0x68 }
+  - { offsetInCU: 0xD36, offset: 0x1C9A4, size: 0x8, addend: 0x0, symName: '-[AudioServicePlugin .cxx_destruct]', symObjAddr: 0x2668, symBinAddr: 0x6668, symSize: 0xC }
+...

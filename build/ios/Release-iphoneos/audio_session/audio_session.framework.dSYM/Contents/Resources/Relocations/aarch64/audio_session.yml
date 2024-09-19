@@ -1,0 +1,82 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/didulasa/Personal Projects/Flutter Projects/tempo_fy/build/ios/Release-iphoneos/audio_session/audio_session.framework/audio_session'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x19E5F, size: 0x8, addend: 0x0, symName: _audio_sessionVersionString, symObjAddr: 0x0, symBinAddr: 0xE0D0, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x19E93, size: 0x8, addend: 0x0, symName: _audio_sessionVersionNumber, symObjAddr: 0x30, symBinAddr: 0xE100, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x19ECF, size: 0x8, addend: 0x0, symName: '+[AudioSessionPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x8C }
+  - { offsetInCU: 0x40, offset: 0x19EE8, size: 0x8, addend: 0x0, symName: _configuration, symObjAddr: 0x3458, symBinAddr: 0x12160, symSize: 0x0 }
+  - { offsetInCU: 0x5A, offset: 0x19F02, size: 0x8, addend: 0x0, symName: _plugins, symObjAddr: 0x3460, symBinAddr: 0x12168, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0x19F97, size: 0x8, addend: 0x0, symName: '+[AudioSessionPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x8C }
+  - { offsetInCU: 0x139, offset: 0x19FE1, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin initWithRegistrar:]', symObjAddr: 0x8C, symBinAddr: 0x808C, symSize: 0xE8 }
+  - { offsetInCU: 0x17C, offset: 0x1A024, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin channel]', symObjAddr: 0x174, symBinAddr: 0x8174, symSize: 0x8 }
+  - { offsetInCU: 0x1B0, offset: 0x1A058, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin handleMethodCall:result:]', symObjAddr: 0x17C, symBinAddr: 0x817C, symSize: 0x278 }
+  - { offsetInCU: 0x24F, offset: 0x1A0F7, size: 0x8, addend: 0x0, symName: '-[AudioSessionPlugin .cxx_destruct]', symObjAddr: 0x3F4, symBinAddr: 0x83F4, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x1A19B, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession initWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8424, symSize: 0x2E0 }
+  - { offsetInCU: 0x40, offset: 0x1A1B4, size: 0x8, addend: 0x0, symName: _sessions, symObjAddr: 0xFC30, symBinAddr: 0x12170, symSize: 0x0 }
+  - { offsetInCU: 0x11B, offset: 0x1A28F, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession initWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8424, symSize: 0x2E0 }
+  - { offsetInCU: 0x178, offset: 0x1A2EC, size: 0x8, addend: 0x0, symName: '___40-[DarwinAudioSession initWithRegistrar:]_block_invoke', symObjAddr: 0x2E0, symBinAddr: 0x8704, symSize: 0x6C }
+  - { offsetInCU: 0x1CE, offset: 0x1A342, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x34C, symBinAddr: 0x8770, symSize: 0xC }
+  - { offsetInCU: 0x1F4, offset: 0x1A368, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x358, symBinAddr: 0x877C, symSize: 0x8 }
+  - { offsetInCU: 0x211, offset: 0x1A385, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession channel]', symObjAddr: 0x360, symBinAddr: 0x8784, symSize: 0x8 }
+  - { offsetInCU: 0x245, offset: 0x1A3B9, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession handleMethodCall:result:]', symObjAddr: 0x368, symBinAddr: 0x878C, symSize: 0x6B8 }
+  - { offsetInCU: 0x2B4, offset: 0x1A428, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getCategory:result:]', symObjAddr: 0xA20, symBinAddr: 0x8E44, symSize: 0xA0 }
+  - { offsetInCU: 0x325, offset: 0x1A499, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession setCategory:result:]', symObjAddr: 0xAC0, symBinAddr: 0x8EE4, symSize: 0x2D0 }
+  - { offsetInCU: 0x420, offset: 0x1A594, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getAvailableCategories:result:]', symObjAddr: 0xD90, symBinAddr: 0x91B4, symSize: 0x114 }
+  - { offsetInCU: 0x4CB, offset: 0x1A63F, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getCategoryOptions:result:]', symObjAddr: 0xEA4, symBinAddr: 0x92C8, symSize: 0x90 }
+  - { offsetInCU: 0x538, offset: 0x1A6AC, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getMode:result:]', symObjAddr: 0xF34, symBinAddr: 0x9358, symSize: 0xA0 }
+  - { offsetInCU: 0x5A9, offset: 0x1A71D, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession setMode:result:]', symObjAddr: 0xFD4, symBinAddr: 0x93F8, symSize: 0x114 }
+  - { offsetInCU: 0x61D, offset: 0x1A791, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getAvailableModes:result:]', symObjAddr: 0x10E8, symBinAddr: 0x950C, symSize: 0x114 }
+  - { offsetInCU: 0x6C8, offset: 0x1A83C, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getRouteSharingPolicy:result:]', symObjAddr: 0x11FC, symBinAddr: 0x9620, symSize: 0x90 }
+  - { offsetInCU: 0x747, offset: 0x1A8BB, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession setActive:result:]', symObjAddr: 0x128C, symBinAddr: 0x96B0, symSize: 0xE0 }
+  - { offsetInCU: 0x8F7, offset: 0x1AA6B, size: 0x8, addend: 0x0, symName: '___39-[DarwinAudioSession setActive:result:]_block_invoke', symObjAddr: 0x136C, symBinAddr: 0x9790, symSize: 0x1A8 }
+  - { offsetInCU: 0x99C, offset: 0x1AB10, size: 0x8, addend: 0x0, symName: '___39-[DarwinAudioSession setActive:result:]_block_invoke_2', symObjAddr: 0x1514, symBinAddr: 0x9938, symSize: 0x6C }
+  - { offsetInCU: 0xA1D, offset: 0x1AB91, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x1580, symBinAddr: 0x99A4, symSize: 0x3C }
+  - { offsetInCU: 0xA43, offset: 0x1ABB7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x15BC, symBinAddr: 0x99E0, symSize: 0x30 }
+  - { offsetInCU: 0xA60, offset: 0x1ABD4, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getRecordPermission:result:]', symObjAddr: 0x15EC, symBinAddr: 0x9A10, symSize: 0x90 }
+  - { offsetInCU: 0xAC2, offset: 0x1AC36, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession requestRecordPermission:result:]', symObjAddr: 0x167C, symBinAddr: 0x9AA0, symSize: 0xA4 }
+  - { offsetInCU: 0xB08, offset: 0x1AC7C, size: 0x8, addend: 0x0, symName: '___53-[DarwinAudioSession requestRecordPermission:result:]_block_invoke', symObjAddr: 0x1720, symBinAddr: 0x9B44, symSize: 0x4C }
+  - { offsetInCU: 0xB67, offset: 0x1ACDB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x176C, symBinAddr: 0x9B90, symSize: 0x10 }
+  - { offsetInCU: 0xB8D, offset: 0x1AD01, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x177C, symBinAddr: 0x9BA0, symSize: 0x8 }
+  - { offsetInCU: 0xBAA, offset: 0x1AD1E, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession isOtherAudioPlaying:result:]', symObjAddr: 0x1784, symBinAddr: 0x9BA8, symSize: 0x94 }
+  - { offsetInCU: 0xC08, offset: 0x1AD7C, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getSecondaryAudioShouldBeSilencedHint:result:]', symObjAddr: 0x1818, symBinAddr: 0x9C3C, symSize: 0x94 }
+  - { offsetInCU: 0xC66, offset: 0x1ADDA, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getAllowHapticsAndSystemSoundsDuringRecording:result:]', symObjAddr: 0x18AC, symBinAddr: 0x9CD0, symSize: 0xD4 }
+  - { offsetInCU: 0xCDC, offset: 0x1AE50, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession setAllowHapticsAndSystemSoundsDuringRecording:result:]', symObjAddr: 0x1980, symBinAddr: 0x9DA4, symSize: 0x120 }
+  - { offsetInCU: 0xD6E, offset: 0x1AEE2, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getPromptStyle:result:]', symObjAddr: 0x1AA0, symBinAddr: 0x9EC4, symSize: 0xB4 }
+  - { offsetInCU: 0xDEB, offset: 0x1AF5F, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodePortList:]', symObjAddr: 0x1B54, symBinAddr: 0x9F78, symSize: 0xC4 }
+  - { offsetInCU: 0xE60, offset: 0x1AFD4, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodePort:]', symObjAddr: 0x1C18, symBinAddr: 0xA03C, symSize: 0x2BC }
+  - { offsetInCU: 0xEB8, offset: 0x1B02C, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession decodePort:]', symObjAddr: 0x1ED4, symBinAddr: 0xA2F8, symSize: 0x114 }
+  - { offsetInCU: 0xF39, offset: 0x1B0AD, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodeChannels:]', symObjAddr: 0x1FE8, symBinAddr: 0xA40C, symSize: 0xE4 }
+  - { offsetInCU: 0xFAE, offset: 0x1B122, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodeChannel:]', symObjAddr: 0x20CC, symBinAddr: 0xA4F0, symSize: 0x16C }
+  - { offsetInCU: 0xFF1, offset: 0x1B165, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodeDataSources:]', symObjAddr: 0x2238, symBinAddr: 0xA65C, symSize: 0xE4 }
+  - { offsetInCU: 0x1066, offset: 0x1B1DA, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodeDataSource:]', symObjAddr: 0x231C, symBinAddr: 0xA740, symSize: 0x35C }
+  - { offsetInCU: 0x10DB, offset: 0x1B24F, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodePolarPattern:]', symObjAddr: 0x2678, symBinAddr: 0xAA9C, symSize: 0x1C4 }
+  - { offsetInCU: 0x112E, offset: 0x1B2A2, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodeOrientation:]', symObjAddr: 0x283C, symBinAddr: 0xAC60, symSize: 0x21C }
+  - { offsetInCU: 0x1181, offset: 0x1B2F5, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodeLocation:]', symObjAddr: 0x2A58, symBinAddr: 0xAE7C, symSize: 0x13C }
+  - { offsetInCU: 0x11D4, offset: 0x1B348, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession encodePortType:]', symObjAddr: 0x2B94, symBinAddr: 0xAFB8, symSize: 0x5BC }
+  - { offsetInCU: 0x1245, offset: 0x1B3B9, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession overrideOutputAudioPort:result:]', symObjAddr: 0x3150, symBinAddr: 0xB574, symSize: 0x100 }
+  - { offsetInCU: 0x12BF, offset: 0x1B433, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession setPreferredInput:result:]', symObjAddr: 0x3250, symBinAddr: 0xB674, symSize: 0x114 }
+  - { offsetInCU: 0x1339, offset: 0x1B4AD, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession decodePortOverride:]', symObjAddr: 0x3364, symBinAddr: 0xB788, symSize: 0x7C }
+  - { offsetInCU: 0x137C, offset: 0x1B4F0, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getCurrentRoute:result:]', symObjAddr: 0x33E0, symBinAddr: 0xB804, symSize: 0x188 }
+  - { offsetInCU: 0x1402, offset: 0x1B576, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getAvailableInputs:result:]', symObjAddr: 0x3568, symBinAddr: 0xB98C, symSize: 0xAC }
+  - { offsetInCU: 0x1468, offset: 0x1B5DC, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getInputLatency:result:]', symObjAddr: 0x3614, symBinAddr: 0xBA38, symSize: 0xA0 }
+  - { offsetInCU: 0x14CA, offset: 0x1B63E, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession getOutputLatency:result:]', symObjAddr: 0x36B4, symBinAddr: 0xBAD8, symSize: 0xA0 }
+  - { offsetInCU: 0x152C, offset: 0x1B6A0, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession flutterToCategory:]', symObjAddr: 0x3754, symBinAddr: 0xBB78, symSize: 0x84 }
+  - { offsetInCU: 0x1580, offset: 0x1B6F4, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession categoryToFlutter:]', symObjAddr: 0x37D8, symBinAddr: 0xBBFC, symSize: 0xF8 }
+  - { offsetInCU: 0x15C3, offset: 0x1B737, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession flutterToMode:]', symObjAddr: 0x38D0, symBinAddr: 0xBCF4, symSize: 0x84 }
+  - { offsetInCU: 0x1617, offset: 0x1B78B, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession modeToFlutter:]', symObjAddr: 0x3954, symBinAddr: 0xBD78, symSize: 0x180 }
+  - { offsetInCU: 0x165A, offset: 0x1B7CE, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession flutterToPolicy:]', symObjAddr: 0x3AD4, symBinAddr: 0xBEF8, symSize: 0xC0 }
+  - { offsetInCU: 0x16AE, offset: 0x1B822, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession policyToFlutter:]', symObjAddr: 0x3B94, symBinAddr: 0xBFB8, symSize: 0x70 }
+  - { offsetInCU: 0x16F1, offset: 0x1B865, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession flutterToRecordPermission:]', symObjAddr: 0x3C04, symBinAddr: 0xC028, symSize: 0x8C }
+  - { offsetInCU: 0x1745, offset: 0x1B8B9, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession recordPermissionToFlutter:]', symObjAddr: 0x3C90, symBinAddr: 0xC0B4, symSize: 0x48 }
+  - { offsetInCU: 0x1788, offset: 0x1B8FC, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession promptStyleToFlutter:]', symObjAddr: 0x3CD8, symBinAddr: 0xC0FC, symSize: 0x48 }
+  - { offsetInCU: 0x17CB, offset: 0x1B93F, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession sendError:result:]', symObjAddr: 0x3D20, symBinAddr: 0xC144, symSize: 0xE8 }
+  - { offsetInCU: 0x1842, offset: 0x1B9B6, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession audioInterrupt:]', symObjAddr: 0x3E08, symBinAddr: 0xC22C, symSize: 0x270 }
+  - { offsetInCU: 0x18A4, offset: 0x1BA18, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession routeChange:]', symObjAddr: 0x4078, symBinAddr: 0xC49C, symSize: 0x108 }
+  - { offsetInCU: 0x18F6, offset: 0x1BA6A, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession silenceSecondaryAudio:]', symObjAddr: 0x4180, symBinAddr: 0xC5A4, symSize: 0x108 }
+  - { offsetInCU: 0x1948, offset: 0x1BABC, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession mediaServicesLost:]', symObjAddr: 0x4288, symBinAddr: 0xC6AC, symSize: 0x10 }
+  - { offsetInCU: 0x1985, offset: 0x1BAF9, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession mediaServicesReset:]', symObjAddr: 0x4298, symBinAddr: 0xC6BC, symSize: 0x10 }
+  - { offsetInCU: 0x19C2, offset: 0x1BB36, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession invokeMethod:arguments:]', symObjAddr: 0x42A8, symBinAddr: 0xC6CC, symSize: 0x144 }
+  - { offsetInCU: 0x1A2F, offset: 0x1BBA3, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession dealloc]', symObjAddr: 0x43EC, symBinAddr: 0xC810, symSize: 0x9C }
+  - { offsetInCU: 0x1A60, offset: 0x1BBD4, size: 0x8, addend: 0x0, symName: '-[DarwinAudioSession .cxx_destruct]', symObjAddr: 0x4488, symBinAddr: 0xC8AC, symSize: 0x30 }
+...
